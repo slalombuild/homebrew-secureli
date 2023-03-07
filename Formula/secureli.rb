@@ -4,9 +4,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "SeCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://bitbucket.org/slalom-consulting/secureli/src/main/"
-    url "https://github.com/centenor/homebrew-test/releases/download/0.4.0/secureli-0.1.0.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    version "0.1.0"
-    sha256 "571c34f489e403218bd2ed2bf3667666a995b97f98eab11c2c773b072dca280f"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.0.2/secureli-0.0.2.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+    version "0.0.2"
+    sha256 "9910509c0f82f63ecf12146a9842f6c424c5849d559d3824915a310270d38867"
   
     depends_on "python@3.9"
 
