@@ -4,7 +4,7 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "SeCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://bitbucket.org/slalom-consulting/secureli/src/main/"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.0.2/secureli-0.0.2.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+    url "https://github.com/slalombuild/homebrew-secureli/releases/download/0.0.2/secureli-0.0.2.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
     version "0.0.2"
     sha256 "9910509c0f82f63ecf12146a9842f6c424c5849d559d3824915a310270d38867"
   
