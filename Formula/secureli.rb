@@ -5,7 +5,7 @@ class Secureli < Formula
     desc "SeCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://bitbucket.org/slalom-consulting/secureli/src/main/"
     url "https://github.com/slalombuild/secureli/releases/download/v0.0.2/secureli-0.0.2.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    version "0.0.2"
+    version "0.0.3"
     sha256 "2cad66ee0e7c004ee380d270e40bfd55e03a985532593d5e4aba6b426983193e"
   
     depends_on "pre-commit"
