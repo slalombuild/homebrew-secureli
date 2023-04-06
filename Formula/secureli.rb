@@ -6,7 +6,7 @@ class Secureli < Formula
     homepage "https://github.com/slalombuild/secureli"
     url "https://github.com/slalombuild/secureli/releases/download/v0.2.2/secureli-0.2.2.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
     version "0.2.2"
-    sha256 "07b864ac1b4f724daa550f59862f8fda57af2bd6c0d1a5c95639a44bd4f255b5"
+    sha256 "57a2d4f4c73cac9a5985bb20aecf6f954561fa485b047cd4f103e4e412cf33f8"
 
     depends_on "pre-commit"
 
