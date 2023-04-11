@@ -8,7 +8,7 @@ class Secureli < Formula
     version "0.2.4"
     sha256 "7b12946d767037e6bc3762644895c5d2c3f252e686a2d9c815c6e6209fdc425f"
 
-    depends_on "pre-commit"
+    depends_on "pre-commit@2.21.0"
 
     depends_on "python@3.9"
 
