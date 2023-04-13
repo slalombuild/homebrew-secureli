@@ -4,9 +4,10 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "SeCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.2.4/secureli-0.2.4.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    version "0.2.4"
-    sha256 "7b12946d767037e6bc3762644895c5d2c3f252e686a2d9c815c6e6209fdc425f"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.2.6/secureli-0.2.6.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+    version "0.2.6"
+    sha256 "828f83ae288cc47115ea0d3536be64607900cc38298778c3d21c1eb639c3ead0"
+    license "Apache-2.0"
 
     depends_on "pre-commit"
 
@@ -21,11 +22,6 @@ class Secureli < Formula
     resource "click" do
         url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
         sha256 "7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"
-    end
-    
-    resource "colorama" do
-        url "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz"
-        sha256 "08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"
     end
     
     resource "commonmark" do
@@ -71,16 +67,6 @@ class Secureli < Formula
     resource "rich" do
         url "https://files.pythonhosted.org/packages/11/23/814edf09ec6470d52022b9e95c23c1bef77f0bc451761e1504ebd09606d3/rich-12.6.0.tar.gz"
         sha256 "ba3a3775974105c221d31141f2c116f4fd65c5ceb0698657a11e9f295ec93fd0"
-    end
-    
-    resource "shellingham" do
-        url "https://files.pythonhosted.org/packages/1f/13/fab0a3f512478bc387b66c51557ee715ede8e9811c77ce952f9b9a4d8ac1/shellingham-1.5.0.post1.tar.gz"
-        sha256 "823bc5fb5c34d60f285b624e7264f4dda254bc803a3774a147bf99c0e3004a28"
-    end
-    
-    resource "six" do
-        url "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
-        sha256 "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"
     end
     
     resource "typer" do
