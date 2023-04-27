@@ -5,6 +5,7 @@ class Secureli < Formula
     url "https://github.com/slalombuild/secureli/releases/download/v0.2.16/secureli-0.2.16.tar.gz"
     version "0.2.16"
     sha256 "9bfcf06a35dd757474cfc6ac66b5b0d851d9d092169495d87a79c1fc3c22079e"
+
     license "Apache-2.0"
 
     depends_on "pre-commit"
