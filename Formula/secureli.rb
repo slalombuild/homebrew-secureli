@@ -2,20 +2,15 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "SeCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.2.17/secureli-0.2.17.tar.gz"
-    version "0.2.17"
-    sha256 "7d7a676363c6473d46d34eceb05d49b42feed4fa147d45eeaa5cb5ccb617cebe"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.2.19/secureli-0.2.19.tar.gz"
+    version "0.2.19"
+    sha256 "8c23d6778c948ba5b91fb98e5f948f15a4fb033fd9543af29d375433d28b2689"
     license "Apache-2.0"
 
     depends_on "pre-commit"
 
     depends_on "python@3.9"
 
-    
-    resource "cfgv" do
-        url "https://files.pythonhosted.org/packages/c4/bf/d0d622b660d414a47dc7f0d303791a627663f554345b21250e39e7acb48b/cfgv-3.3.1.tar.gz"
-        sha256 "f5a830efb9ce7a445376bb66ec94c638a9787422f96264c98edc6bdeed8ab736"
-    end
     
     resource "click" do
         url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
