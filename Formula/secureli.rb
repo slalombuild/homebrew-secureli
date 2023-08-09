@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.10.1/secureli-0.10.1.tar.gz"
-    version "0.10.1"
-    sha256 "c77cfc6754dbd5ad0637401c95171029c9f50b981e8f1f0710498a4f821935fb"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.11.0/secureli-0.11.0.tar.gz"
+    version "0.11.0"
+    sha256 "81de2ea99e74126cf954a5c971829589c7ced52cd3d7a49b993a6004700cac6f"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -68,8 +68,8 @@ class Secureli < Formula
     end
     
     resource "pygments" do
-        url "https://files.pythonhosted.org/packages/89/6b/2114e54b290824197006e41be3f9bbe1a26e9c39d1f5fa20a6d62945a0b3/Pygments-2.15.1.tar.gz"
-        sha256 "8ace4d3c1dd481894b2005f560ead0f9f19ee64fe983366be1a21e171d12775c"
+        url "https://files.pythonhosted.org/packages/d6/f7/4d461ddf9c2bcd6a4d7b2b139267ca32a69439387cc1f02a924ff8883825/Pygments-2.16.1.tar.gz"
+        sha256 "1daff0494820c69bc8941e407aa20f577374ee88364ee10a98fdbe0aece96e29"
     end
     
     resource "pyyaml" do
