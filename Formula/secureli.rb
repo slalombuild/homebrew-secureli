@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.18.0/secureli-0.18.0.tar.gz"
-    version "0.18.0"
-    sha256 "269e3a3adc58dfb624a917785a853778875a91649ecfb906e787d0fba630e5fe"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.19.0/secureli-0.19.0.tar.gz"
+    version "0.19.0"
+    sha256 "3c1ea24461877fd8cdfb9ea7affb70153b0ae233fb535b3f7706eec9b92f9dcb"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -85,6 +85,11 @@ class Secureli < Formula
     resource "rich" do
         url "https://files.pythonhosted.org/packages/e3/12/67d0098eb77005f5e068de639e6f4cfb8f24e6fcb0fd2037df0e1d538fee/rich-13.4.2.tar.gz"
         sha256 "d653d6bccede5844304c605d5aac802c7cf9621efd700b46c7ec2b51ea914898"
+    end
+    
+    resource "six" do
+        url "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
+        sha256 "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"
     end
     
     resource "typer" do
