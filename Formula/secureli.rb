@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.21.3/secureli-0.21.3.tar.gz"
-    version "0.21.3"
-    sha256 "e7026e75849f2898fbc692eac1d6f672a252d4ed0c9443b22856f584ee90688d"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.21.4/secureli-0.21.4.tar.gz"
+    version "0.21.4"
+    sha256 "29b7f5c7a0e9c069bc24de3ef3f86cdad35839d4b4b491c2fe06d6a3d89c1e8d"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -15,6 +15,11 @@ class Secureli < Formula
     resource "certifi" do
         url "https://files.pythonhosted.org/packages/98/98/c2ff18671db109c9f10ed27f5ef610ae05b73bd876664139cf95bd1429aa/certifi-2023.7.22.tar.gz"
         sha256 "539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082"
+    end
+    
+    resource "cfgv" do
+        url "https://files.pythonhosted.org/packages/11/74/539e56497d9bd1d484fd863dd69cbbfa653cd2aa27abfe35653494d85e94/cfgv-3.4.0.tar.gz"
+        sha256 "e52591d4c5f5dead8e0f673fb16db7949d2cfb3f7da4582893288f0ded8fe560"
     end
     
     resource "charset-normalizer" do
