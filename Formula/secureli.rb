@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.21.1/secureli-0.21.1.tar.gz"
-    version "0.21.1"
-    sha256 "0da799ed66a5b0582336f0e037e0bb32a61e8c4310a947336a24f50583c54efd"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.21.2/secureli-0.21.2.tar.gz"
+    version "0.21.2"
+    sha256 "d1c08258fd2db35a854c935902ee0ac3cf8dc35544948142f807808f2d165816"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -30,6 +30,11 @@ class Secureli < Formula
     resource "dependency-injector" do
         url "https://files.pythonhosted.org/packages/eb/c5/ec73412b4b460fe1ebeef8380d1aee5e8bd0374a2e234a05b5d40b0b3db0/dependency-injector-4.41.0.tar.gz"
         sha256 "939dfc657104bc3e66b67afd3fb2ebb0850c9a1e73d0d26066f2bbdd8735ff9c"
+    end
+    
+    resource "identify" do
+        url "https://files.pythonhosted.org/packages/d1/31/e0808997702fef9e8bd639879df6d6711277d40558e77b885cccec424042/identify-2.5.29.tar.gz"
+        sha256 "d43d52b86b15918c137e3a74fff5224f60385cd0e9c38e99d07c257f02f151a5"
     end
     
     resource "idna" do
