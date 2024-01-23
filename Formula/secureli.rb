@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.22.0/secureli-0.22.0.tar.gz"
-    version "0.22.0"
-    sha256 "fae4021a9e57a00807d71742d00a160db0f98cd734e79b9e90025e0e96bff3fc"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.23.0/secureli-0.23.0.tar.gz"
+    version "0.23.0"
+    sha256 "b6d15e12da05274e8e030b16a7045a285994329d2e9b149c819a6174db178702"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -47,8 +47,8 @@ class Secureli < Formula
     end
     
     resource "jinja2" do
-        url "https://files.pythonhosted.org/packages/7a/ff/75c28576a1d900e87eb6335b063fab47a8ef3c8b4d88524c4bf78f670cce/Jinja2-3.1.2.tar.gz"
-        sha256 "31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852"
+        url "https://files.pythonhosted.org/packages/b2/5e/3a21abf3cd467d7876045335e681d276ac32492febe6d98ad89562d1a7e1/Jinja2-3.1.3.tar.gz"
+        sha256 "ac8bd6544d4bb2c9792bf3a159e80bba8fda7f07e81bc3aed565432d5925ba90"
     end
     
     resource "markdown-it-py" do
