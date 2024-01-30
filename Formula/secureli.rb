@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.24.0/secureli-0.24.0.tar.gz"
-    version "0.24.0"
-    sha256 "06408c442c65e3e8b189c70fe7be4021a632b4cdb04983f32cc7f4ea703b2e42"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.24.1/secureli-0.24.1.tar.gz"
+    version "0.24.1"
+    sha256 "ede78bb1056531c3b2cca99b1628e211e35137b7b4ddec629369825f9c003763"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -117,8 +117,8 @@ class Secureli < Formula
     end
     
     resource "urllib3" do
-        url "https://files.pythonhosted.org/packages/31/ab/46bec149bbd71a4467a3063ac22f4486ecd2ceb70ae8c70d5d8e4c2a7946/urllib3-2.0.4.tar.gz"
-        sha256 "8d22f86aae8ef5e410d4f539fde9ce6b2113a001bb4d189e0aed70642d602b11"
+        url "https://files.pythonhosted.org/packages/af/47/b215df9f71b4fdba1025fc05a77db2ad243fa0926755a52c5e71659f4e3c/urllib3-2.0.7.tar.gz"
+        sha256 "c97dfde1f7bd43a71c8d2a58e369e9b2bf692d1334ea9f9cae55add7d0dd0f84"
     end
     
 
