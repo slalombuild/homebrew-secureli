@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.24.1/secureli-0.24.1.tar.gz"
-    version "0.24.1"
-    sha256 "ede78bb1056531c3b2cca99b1628e211e35137b7b4ddec629369825f9c003763"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.25.0/secureli-0.25.0.tar.gz"
+    version "0.25.0"
+    sha256 "52ed8cb3beefd69c3de345f6ac41de39078baf5da26c763634d2cc9d724e43f7"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -37,8 +37,8 @@ class Secureli < Formula
     end
     
     resource "identify" do
-        url "https://files.pythonhosted.org/packages/d1/31/e0808997702fef9e8bd639879df6d6711277d40558e77b885cccec424042/identify-2.5.29.tar.gz"
-        sha256 "d43d52b86b15918c137e3a74fff5224f60385cd0e9c38e99d07c257f02f151a5"
+        url "https://files.pythonhosted.org/packages/61/a0/92aba7e128faadab9db785c1f8cc442caf51cba5a55b575abb211b12526f/identify-2.5.33.tar.gz"
+        sha256 "161558f9fe4559e1557e1bff323e8631f6a0e4837f7497767c1782832f16b62d"
     end
     
     resource "idna" do
@@ -72,8 +72,8 @@ class Secureli < Formula
     end
     
     resource "pre-commit" do
-        url "https://files.pythonhosted.org/packages/56/a5/cb576829ab7c94e768221cf0629e0da8519e744d993e0c99a6ae9803babd/pre_commit-3.4.0.tar.gz"
-        sha256 "6bbd5129a64cad4c0dfaeeb12cd8f7ea7e15b77028d985341478c8af3c759522"
+        url "https://files.pythonhosted.org/packages/88/e8/4330d06f2b00ad3a9c66e07a68fe23f70233a4e7e1aaba5a738a93d2cb5d/pre_commit-3.6.0.tar.gz"
+        sha256 "d30bad9abf165f7785c15a21a1f46da7d0677cb00ee7ff4c579fd38922efe15d"
     end
     
     resource "pydantic" do
@@ -82,8 +82,8 @@ class Secureli < Formula
     end
     
     resource "pygments" do
-        url "https://files.pythonhosted.org/packages/d6/f7/4d461ddf9c2bcd6a4d7b2b139267ca32a69439387cc1f02a924ff8883825/Pygments-2.16.1.tar.gz"
-        sha256 "1daff0494820c69bc8941e407aa20f577374ee88364ee10a98fdbe0aece96e29"
+        url "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz"
+        sha256 "da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
     end
     
     resource "pyyaml" do
