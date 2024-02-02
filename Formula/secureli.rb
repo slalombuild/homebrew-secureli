@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.25.0/secureli-0.25.0.tar.gz"
-    version "0.25.0"
-    sha256 "52ed8cb3beefd69c3de345f6ac41de39078baf5da26c763634d2cc9d724e43f7"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.26.0/secureli-0.26.0.tar.gz"
+    version "0.26.0"
+    sha256 "02e514973a60ab5095fc15c2b7aceea8211e12ed9ce880bd6cda7853cfc2bc98"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -67,8 +67,8 @@ class Secureli < Formula
     end
     
     resource "pathspec" do
-        url "https://files.pythonhosted.org/packages/a0/2a/bd167cdf116d4f3539caaa4c332752aac0b3a0cc0174cdb302ee68933e81/pathspec-0.11.2.tar.gz"
-        sha256 "e0d8d0ac2f12da61956eb2306b69f9469b42f4deb0f3cb6ed47b9cce9996ced3"
+        url "https://files.pythonhosted.org/packages/ca/bc/f35b8446f4531a7cb215605d100cd88b7ac6f44ab3fc94870c120ab3adbf/pathspec-0.12.1.tar.gz"
+        sha256 "a482d51503a1ab33b1c67a6c3813a26953dbdc71c31dacaef9a838c4e29f5712"
     end
     
     resource "pre-commit" do
