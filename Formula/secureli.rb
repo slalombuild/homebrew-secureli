@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.29.0/secureli-0.29.0.tar.gz"
-    version "0.29.0"
-    sha256 "8d7039a4ef7b331eb5eb8d203a043024d981c4a18070718d25e8a1a1c4494d7b"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.30.0/secureli-0.30.0.tar.gz"
+    version "0.30.0"
+    sha256 "84751ae3be2a81df841a6e88c0d1d8b9d7bf2d782b937745081ecd0d413b2ae6"
     license "Apache-2.0"
 
     depends_on "pre-commit"
