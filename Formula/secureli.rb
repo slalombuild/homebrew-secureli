@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.30.0/secureli-0.30.0.tar.gz"
-    version "0.30.0"
-    sha256 "84751ae3be2a81df841a6e88c0d1d8b9d7bf2d782b937745081ecd0d413b2ae6"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.31.0/secureli-0.31.0.tar.gz"
+    version "0.31.0"
+    sha256 "fac1ed50f819b357303fc8772065750eea548beeb70ba73f54245623d3cf7a0f"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -42,8 +42,8 @@ class Secureli < Formula
     end
     
     resource "identify" do
-        url "https://files.pythonhosted.org/packages/70/40/6df30e7ec1934ad43736248bb2c2800782fba42bad2bfda91b514cf7bdea/identify-2.5.34.tar.gz"
-        sha256 "ee17bc9d499899bc9eaec1ac7bf2dc9eedd480db9d88b96d123d3b64a9d34f5d"
+        url "https://files.pythonhosted.org/packages/c4/ba/680e84c24284eba70aebaaa90d03bd039453419151b0e6f92cd36bf69dd5/identify-2.5.35.tar.gz"
+        sha256 "10a7ca245cfcd756a554a7288159f72ff105ad233c7c4b9c6f0f4d108f5f6791"
     end
     
     resource "idna" do
@@ -77,8 +77,8 @@ class Secureli < Formula
     end
     
     resource "pre-commit" do
-        url "https://files.pythonhosted.org/packages/1f/a7/37bb57af1681e945c0f4237a6f2da562bc54dd42db103ee9f6b41a958289/pre_commit-3.6.1.tar.gz"
-        sha256 "c90961d8aa706f75d60935aba09469a6b0bcb8345f127c3fbee4bdc5f114cf4b"
+        url "https://files.pythonhosted.org/packages/04/bd/8a672a86e68f542c3f2ae17a9a8fa63babf16d1107be2f5290e5aa4369ba/pre_commit-3.6.2.tar.gz"
+        sha256 "c3ef34f463045c88658c5b99f38c1e297abdcc0ff13f98d3370055fbbfabc67e"
     end
     
     resource "pydantic" do
