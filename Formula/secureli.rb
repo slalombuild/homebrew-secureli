@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.32.0/secureli-0.32.0.tar.gz"
-    version "0.32.0"
-    sha256 "e6864368dc93679c578c30b2c215d6ef75f43a1f8f12cead513d6d30a7f29ca2"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.33.0/secureli-0.33.0.tar.gz"
+    version "0.33.0"
+    sha256 "f433fa3c40c7bef37bd61bff100b56cd75931a69e39537a5127cb682b9c151b1"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -77,8 +77,8 @@ class Secureli < Formula
     end
     
     resource "pre-commit" do
-        url "https://files.pythonhosted.org/packages/04/bd/8a672a86e68f542c3f2ae17a9a8fa63babf16d1107be2f5290e5aa4369ba/pre_commit-3.6.2.tar.gz"
-        sha256 "c3ef34f463045c88658c5b99f38c1e297abdcc0ff13f98d3370055fbbfabc67e"
+        url "https://files.pythonhosted.org/packages/60/62/691bb4109735ea4b8eb69f4a68110ece4c7ec4a7ce0144996e7302eb5eef/pre_commit-3.7.0.tar.gz"
+        sha256 "e209d61b8acdcf742404408531f0c37d49d2c734fd7cff2d6076083d191cb060"
     end
     
     resource "pydantic" do
@@ -112,8 +112,8 @@ class Secureli < Formula
     end
     
     resource "typer" do
-        url "https://files.pythonhosted.org/packages/5b/49/39f10d0f75886439ab3dac889f14f8ad511982a754e382c9b6ca895b29e9/typer-0.9.0.tar.gz"
-        sha256 "50922fd79aea2f4751a8e0408ff10d2662bd0c8bbfa84755a699f3bada2978b2"
+        url "https://files.pythonhosted.org/packages/8d/1b/b54d2c7488783b7fb11ae5e509646d19e3aaadda941503bce55c68f2abca/typer-0.10.0.tar.gz"
+        sha256 "597f974754520b091665f993f88abdd088bb81c56b3042225434ced0b50a788b"
     end
     
     resource "typing-extensions" do
