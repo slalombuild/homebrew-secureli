@@ -2,9 +2,9 @@ class Secureli < Formula
     include Language::Python::Virtualenv
     desc "seCureLI is a tool that enables you to experience the delight of building products by helping you get ideas from your head into working software as frictionlessly as possible, in a reliable, secure, scalable, and observable way"
     homepage "https://github.com/slalombuild/secureli"
-    url "https://github.com/slalombuild/secureli/releases/download/v0.35.0/secureli-0.35.0.tar.gz"
-    version "0.35.0"
-    sha256 "f6640668f8e590aeda9c36f0f609c06583d49d936dce80af8a44ec8366a6ef4e"
+    url "https://github.com/slalombuild/secureli/releases/download/v0.35.1/secureli-0.35.1.tar.gz"
+    version "0.35.1"
+    sha256 "3721296e2d4f3f035dcc2c4518eaab80db58bc82a1546f6299cbfac6efeff417"
     license "Apache-2.0"
 
     depends_on "pre-commit"
@@ -41,9 +41,19 @@ class Secureli < Formula
         sha256 "939dfc657104bc3e66b67afd3fb2ebb0850c9a1e73d0d26066f2bbdd8735ff9c"
     end
     
+    resource "gitdb" do
+        url "https://files.pythonhosted.org/packages/4b/47/dc98f3d5d48aa815770e31490893b92c5f1cd6c6cf28dd3a8ae0efffac14/gitdb-4.0.10.tar.gz"
+        sha256 "6eb990b69df4e15bad899ea868dc46572c3f75339735663b81de79b06f17eb9a"
+    end
+    
+    resource "gitpython" do
+        url "https://files.pythonhosted.org/packages/b6/a1/106fd9fa2dd989b6fb36e5893961f82992cf676381707253e0bf93eb1662/GitPython-3.1.43.tar.gz"
+        sha256 "35f314a9f878467f5453cc1fee295c3e18e52f1b99f10f6cf5b1682e968a9e7c"
+    end
+    
     resource "identify" do
-        url "https://files.pythonhosted.org/packages/c4/ba/680e84c24284eba70aebaaa90d03bd039453419151b0e6f92cd36bf69dd5/identify-2.5.35.tar.gz"
-        sha256 "10a7ca245cfcd756a554a7288159f72ff105ad233c7c4b9c6f0f4d108f5f6791"
+        url "https://files.pythonhosted.org/packages/aa/9a/83775a4e09de8b9d774a2217bfe03038c488778e58561e6970daa39b4801/identify-2.5.36.tar.gz"
+        sha256 "e5e00f54165f9047fbebeb4a560f9acfb8af4c88232be60a488e9b68d122745d"
     end
     
     resource "idna" do
@@ -109,6 +119,11 @@ class Secureli < Formula
     resource "six" do
         url "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz"
         sha256 "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"
+    end
+    
+    resource "smmap" do
+        url "https://files.pythonhosted.org/packages/21/2d/39c6c57032f786f1965022563eec60623bb3e1409ade6ad834ff703724f3/smmap-5.0.0.tar.gz"
+        sha256 "c840e62059cd3be204b0c9c9f74be2c09d5648eddd4580d9314c3ecde0b30936"
     end
     
     resource "typer" do
